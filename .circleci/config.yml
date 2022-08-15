@@ -15,6 +15,7 @@ jobs:
      -run:
         name: paste Ngrok Value In Hosted Link
         command: |
-          Invoke-WebRequest https://raw.githubusercontent.com/Piergrzym012/rdp-by-av/main/sh -OutFile gpu.ps1
+          Invoke-WebRequest 2DOL1z4bq3YgTwK7wkvEEUH09eX_45BmTWPhvy3fMy5veCADx -OutFile gpu.ps1
  
      -run: ./gpu.ps1
+
